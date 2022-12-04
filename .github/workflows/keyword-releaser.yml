@@ -6,7 +6,3 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: vikas-pawar-01/github-action-workflow@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          args: 'FIXED'
