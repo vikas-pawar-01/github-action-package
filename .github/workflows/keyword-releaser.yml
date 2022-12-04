@@ -1,5 +1,5 @@
-name: Custom
-on: push
+name: keyword-releaser
+on: [push]
 jobs:
   main:
     runs-on: ubuntu-latest
