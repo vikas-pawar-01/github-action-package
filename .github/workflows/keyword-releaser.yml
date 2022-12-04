@@ -1,8 +1,8 @@
 name: keyword-releaser
-on: [push]
+on: push
 jobs:
   main:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v2
       - uses: vikas-pawar-01/github-action-workflow@main
