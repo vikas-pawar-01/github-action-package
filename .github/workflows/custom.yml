@@ -1,5 +1,5 @@
 name: Custom
-on push
+on: push
 jobs:
   main:
     runs: ubuntu-latest
