@@ -1,3 +1,4 @@
 # github-action-package
-Test package 
-Test
+My github action project!
+
+Testing the github action workflow releaser.
