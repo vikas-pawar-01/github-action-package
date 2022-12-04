@@ -8,5 +8,3 @@ jobs:
       - uses: vikas-pawar-01/github-action-workflow@main
         env:
           GITHUB_TOKEN: ${{ secrets.ACTION_TOKEN }}
-        with:
-          args: 'FIXED'
