@@ -1,0 +1,8 @@
+name: Custom
+on push
+jobs:
+  main:
+    runs: ubuntu-latest
+    steps:
+      uses: actions.checkout@v3
+      uses: vikas-pawar-01/github-action-workflow@main
